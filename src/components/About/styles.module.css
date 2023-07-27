@@ -1,7 +1,3 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
 .about {
   display: flex;
   flex-wrap: wrap;
@@ -12,14 +8,18 @@
   padding: 1rem 6rem;
 }
 
-.about_description {
+.about_description,
+.about_video_description {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-bottom: 1rem;
   width: 100%;
+}
+
+.about_description {
+  margin-bottom: 1rem;
 }
 
 .about_description h1 {
@@ -28,7 +28,8 @@
   line-height: 30px;
 }
 
-.about_description p {
+.about_description,
+.about_video_description p {
   font-size: 18px;
   font-weight: 500;
   text-align: justify;
@@ -39,6 +40,7 @@
   display: flex;
   flex-direction: column;
   width: 90%;
+  margin-bottom: 2rem;
 }
 
 .stats1_card,
@@ -74,6 +76,20 @@ h3 {
   margin-top: 5px;
 }
 
+.conda_forge_video {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conda_forge_video iframe {
+  aspect-ratio: 16 / 9;
+  width: 60%;
+  height: 90%;
+  padding: 10px;
+}
+
 @media screen and (max-width: 1050px) {
   .about_description {
     margin-bottom: 1rem;
@@ -82,6 +98,10 @@ h3 {
   .stats1_card,
   .stats2_card {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .conda_forge_video iframe {
+    min-height: 300px;
   }
 }
 
@@ -99,6 +119,10 @@ h3 {
   .stats2_card {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  .conda_forge_video iframe {
+    min-height: 250px;
+  }
 }
 
 @media screen and (max-width: 490px) {
@@ -113,5 +137,10 @@ h3 {
 
   .about_description p {
     font-size: 16px;
+  }
+
+  .conda_forge_video iframe {
+    min-height: 200px;
+    min-width: 300px;
   }
 }
