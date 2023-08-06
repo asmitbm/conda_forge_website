@@ -33,15 +33,19 @@
 }
 
 .contributing_conda_card {
-  width: 340px;
+  background: var(--theme-card);
+  width: 310px;
   display: flex;
   flex-direction: column;
-  flex: 0 0 auto;
+  flex: 0 1 auto;
   align-items: flex-start;
   padding: 1.5rem;
   border-radius: 15px;
-  background: var(--theme-card);
-  margin: auto;
+  transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.contributing_conda_card:hover {
+  transform: scale(0.9);
 }
 
 .contributing_conda_card Svg,

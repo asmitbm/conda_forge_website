@@ -39,6 +39,10 @@
   margin-top: 2em;
 }
 
+.header_content_input a {
+  text-decoration: none;
+}
+
 @media screen and (max-width: 1050px) {
   .header {
     flex-direction: column;

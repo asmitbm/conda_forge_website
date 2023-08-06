@@ -20,6 +20,16 @@ const contributing = [
         content: 'Add a new conda recipe in a new "recipes/[your-package-name]" directory.',
         width: 50,
     },
+    {
+        Svg: require('@site/static/img/contributing/help.svg').default,
+        title: 'Ask For Help',
+        content: (
+            <>
+                Join the <a href="https://app.element.io/#/room/#conda-forge:matrix.org" target="_blank" rel="noreferrer"> conda-forge community </a> on Element and reach out for assistance whenever needed.
+            </>
+        ),
+        width: 50,
+    },
 ];
 
 export default function Contributing() {

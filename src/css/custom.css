@@ -31,9 +31,19 @@ h6 {
   font-family: var(--ifm-font-heading-family);
 }
 
-p,
-a {
+p {
   font-family: var(--ifm-font-content-family);
+}
+
+a {
+  text-decoration: underline;
+}
+
+.navbar__item,
+.navbar__link,
+.navbar-sidebar__item,
+.menu a {
+  text-decoration: none;
 }
 
 .gradient_text {
