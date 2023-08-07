@@ -1,0 +1,116 @@
+.supporters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5em;
+}
+
+.section_padding {
+  padding: 3rem 6rem;
+}
+
+.supporters_conda_forge {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.supporters_conda_forge h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 30px;
+}
+
+.supporters_conda_forge p {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: justify;
+  padding: 10px;
+}
+
+.fiscal_sponsor {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+}
+
+.numfocus_card {
+  background: var(--theme-card);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  padding: 3em 5em;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.about_numfocus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 2em;
+  width: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+  .section_padding {
+    padding: 3rem;
+  }
+
+  .fiscal_sponsor {
+    flex-direction: column;
+  }
+
+  .numfocus_card {
+    margin-bottom: 2em;
+    width: 80%;
+    align-self: center;
+  }
+
+  .about_numfocus {
+    align-self: center;
+    text-align: center;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .section_padding {
+    padding: 2rem;
+  }
+
+  .supporters_conda_forge h1 {
+    font-size: 28px;
+    line-height: 26px;
+  }
+
+  .numfocus_card {
+    padding: 2em 3em;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .section_padding {
+    padding: 1rem;
+  }
+
+  .supporters_conda_forge h1 {
+    font-size: 24px;
+    line-height: 22px;
+  }
+
+  .supporters_conda_forge p {
+    font-size: 16px;
+  }
+}

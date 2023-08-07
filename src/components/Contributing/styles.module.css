@@ -10,7 +10,7 @@
   padding: 1rem 6rem;
 }
 
-.contributing_conda {
+.contributing_conda_forge {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,20 +19,20 @@
   width: 100%;
 }
 
-.contributing_conda h1 {
+.contributing_conda_forge h1 {
   font-weight: 700;
   font-size: 32px;
   line-height: 30px;
 }
 
-.contributing_conda p {
+.contributing_conda_forge p {
   font-size: 18px;
   font-weight: 500;
   text-align: justify;
   padding: 10px;
 }
 
-.contributing_conda_card {
+.contributing_conda_forge_card {
   background: var(--theme-card);
   width: 310px;
   display: flex;
@@ -44,26 +44,26 @@
   transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
 }
 
-.contributing_conda_card:hover {
+.contributing_conda_forge_card:hover {
   transform: scale(0.9);
 }
 
-.contributing_conda_card Svg,
+.contributing_conda_forge_card Svg,
 h3 {
   margin-bottom: 1em;
 }
 
-.contributing_conda_card p {
+.contributing_conda_forge_card p {
   font-size: 16px;
   font-weight: 500;
 }
 
 @media screen and (max-width: 650px) {
-  .contributing_conda {
+  .contributing_conda_forge {
     padding: 1rem;
   }
 
-  .contributing_conda h1 {
+  .contributing_conda_forge h1 {
     font-size: 28px;
     line-height: 26px;
   }
@@ -74,12 +74,12 @@ h3 {
     padding: 0.5rem;
   }
 
-  .contributing_conda h1 {
+  .contributing_conda_forge h1 {
     font-size: 24px;
     line-height: 22px;
   }
 
-  .contributing_conda p {
+  .contributing_conda_forge p {
     font-size: 16px;
   }
 }

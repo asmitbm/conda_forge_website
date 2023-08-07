@@ -4,6 +4,7 @@ import Layout from "@theme/Layout";
 import Header from "@site/src/components/Header";
 import About from "@site/src/components/About";
 import Contributing from "@site/src/components/Contributing";
+import Supporters from "@site/src/components/Supporters";
 
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
@@ -15,6 +16,7 @@ export default function Home() {
         <Header />
         <About />
         <Contributing />
+        <Supporters />
       </main>
     </Layout>
   );

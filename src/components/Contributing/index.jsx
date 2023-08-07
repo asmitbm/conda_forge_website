@@ -35,12 +35,12 @@ const contributing = [
 export default function Contributing() {
     return (
         <div className={[styles.contributing, styles.section_padding].join(' ')}>
-            <div className={styles.contributing_conda}>
+            <div className={styles.contributing_conda_forge}>
                 <h1>Contributing to conda-forge</h1>
                 <p>For a package on conda-forge, I want to ...</p>
             </div>
             {contributing.map(({ Svg, title, content, width }, index) => (
-                <div className={styles.contributing_conda_card} key={index}>
+                <div className={styles.contributing_conda_forge_card} key={index}>
                     <Svg width={width} alt={title} role="img" />
                     <h3>{title}</h3>
                     <p>{content}</p>
