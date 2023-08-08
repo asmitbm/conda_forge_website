@@ -35,7 +35,7 @@
 .fiscal_sponsor {
   display: flex;
   flex-direction: row;
-  width: 90%;
+  width: 80%;
 }
 
 .numfocus_card {
