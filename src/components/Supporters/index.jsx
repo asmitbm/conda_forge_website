@@ -3,7 +3,6 @@ import styles from './styles.module.css';
 import Link from '@docusaurus/Link';
 import ThemedImage from '@theme/ThemedImage';
 import useBaseUrl from '@docusaurus/useBaseUrl';
-import NumFOCUS from '@site/static/img/supporters/numfocus.svg';
 
 /* data of supporters */
 const financial = [
@@ -101,7 +100,16 @@ export default function Supporters() {
             </div>
             <div className={styles.fiscal_sponsor}>
                 <div className={styles.numfocus_card}>
-                    <NumFOCUS className={styles.image} />
+                    <Link to="https://numfocus.org/">
+                        <ThemedImage className={styles.image}
+                            alt="NumFOCUS Logo"
+                            sources={{
+                                light: useBaseUrl('/img/supporters/numfocus.svg'),
+                                dark: useBaseUrl('/img/supporters/numfocus.svg'),
+                            }}
+                            width="100%"
+                        />
+                    </Link>
                 </div>
                 <div className={styles.about_numfocus}>
                     <h3>conda-forge is a <span className="gradient_text">fiscally sponsored</span> project of NumFOCUS.</h3>
