@@ -97,7 +97,7 @@ export default function Supporters() {
         <div className={[styles.supporters, styles.section_padding].join(' ')}>
             <div className={styles.supporters_conda_forge}>
                 <h1>Supporters</h1>
-                <p>If you like conda-forge and want to support our mission, please consider making a <Link to="https://numfocus.salsalabs.org/donate-to-conda-forge/index.html">donation</Link> to support our efforts.</p>
+                <p>If you like conda-forge and want to support our mission, please consider making a <Link to="https://opencollective.com/conda-forge">donation</Link> to support our efforts.</p>
             </div>
             <div className={styles.fiscal_sponsor}>
                 <div className={styles.numfocus_card}>
