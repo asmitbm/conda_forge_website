@@ -48,6 +48,10 @@
   padding: 3em 5em;
 }
 
+.numfocus_card a {
+  background: none;
+}
+
 .about_numfocus {
   display: flex;
   align-items: center;
@@ -79,6 +83,10 @@
   border-radius: 10px;
   padding: 2.25rem;
   transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.cardWrapper a {
+  background: none;
 }
 
 .cardWrapper:hover {
