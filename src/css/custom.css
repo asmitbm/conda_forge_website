@@ -67,12 +67,12 @@ a:hover {
   background: none;
 }
 
-.footer__items a {
+.footer a {
   background: none;
 }
 
-.footer__copyright a {
-  background: none;
+.footer a:hover {
+  color: var(--ifm-color-primary-lightest);
 }
 
 .gradient_text {
