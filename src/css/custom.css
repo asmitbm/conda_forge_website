@@ -67,6 +67,14 @@ a:hover {
   background: none;
 }
 
+.footer__items a {
+  background: none;
+}
+
+.footer__copyright a {
+  background: none;
+}
+
 .gradient_text {
   background: linear-gradient(62deg, #ff3664 0%, #ff4b2b 100%);
   background-clip: text;
