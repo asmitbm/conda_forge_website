@@ -39,10 +39,12 @@ a {
   text-decoration: underline;
 }
 
-.navbar__item,
-.navbar__link,
 .navbar-sidebar__item,
 .menu a {
+  text-decoration: none;
+}
+
+.navbar__items--right a {
   text-decoration: none;
 }
 
