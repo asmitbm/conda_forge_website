@@ -37,10 +37,14 @@ p {
 
 a {
   text-decoration: underline;
-  transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 a:hover {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:focus {
   background: var(--ifm-color-primary);
   border-radius: 5px;
   color: #fff;
@@ -53,22 +57,6 @@ a:hover {
 
 .navbar__items--right a {
   text-decoration: none;
-}
-
-.navbar__items--right a:hover {
-  background: none;
-}
-
-.navbar__items a {
-  background: none;
-}
-
-.navbar-sidebar a {
-  background: none;
-}
-
-.footer a {
-  background: none;
 }
 
 .footer a:hover {
