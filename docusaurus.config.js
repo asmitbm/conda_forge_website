@@ -134,6 +134,11 @@ const config = {
             label: "Community",
           },
           {
+            href: "https://opencollective.com/conda-forge",
+            label: "Donate",
+            position: "right",
+          },
+          {
             to: "https://github.com/conda-forge",
             title: "GitHub",
             position: "right",
