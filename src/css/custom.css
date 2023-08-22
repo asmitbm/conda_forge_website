@@ -43,15 +43,10 @@ a:hover {
   text-decoration: none;
 }
 
-.navbar__inner a:focus {
-  background: #fff;
-  color: var(--ifm-color-primary);
-}
-
 a:focus {
-  background: var(--ifm-color-primary);
+  background: #ffff00;
   border-radius: 5px;
-  color: #fff;
+  color: #000;
 }
 
 .navbar-sidebar__item,
