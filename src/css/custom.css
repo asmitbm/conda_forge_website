@@ -43,6 +43,11 @@ a:hover {
   text-decoration: none;
 }
 
+.navbar__inner a:focus {
+  background: #fff;
+  color: var(--ifm-color-primary);
+}
+
 a:focus {
   background: var(--ifm-color-primary);
   border-radius: 5px;
@@ -69,14 +74,14 @@ a:focus {
   -webkit-text-fill-color: transparent;
 }
 
-.button.button--secondary {
+.homepage_button {
   background:
     linear-gradient(#fff, #fff) padding-box,
     linear-gradient(62deg, #ff3664 0%, #ff4b2b 100%) border-box;
   border: 2px solid transparent;
 }
 
-.button.button--secondary:hover {
+.homepage_button:hover {
   background:
     linear-gradient(#ebedf0, #ebedf0) padding-box,
     linear-gradient(62deg, #ff3664 0%, #ff4b2b 100%) border-box;

@@ -19,7 +19,7 @@ export default function Header() {
             <div className={styles.header_content}>
                 <h1>Community-led <span className="gradient_text">recipes</span>, <span className="gradient_text">infrastructure</span> and <span className="gradient_text">distributions</span> for Conda.</h1>
                 <div className={styles.header_content_input}>
-                    <Link to="/docs/getting-started" className='button button--secondary button--lg'>Explore conda-forge</Link>
+                    <Link to="/docs/getting-started" className='button button--secondary button--lg homepage_button'>Explore conda-forge</Link>
                 </div>
             </div>
         </div>
