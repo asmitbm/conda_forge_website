@@ -160,7 +160,7 @@ a:focus {
 
 .color-palette-theme-container {
   padding: 1rem;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 .color-palette-light-theme-container {
@@ -175,4 +175,13 @@ a:focus {
   color: var(--light-theme-bg-color);
   padding: 1rem;
   border-radius: 5px;
+}
+
+.logo-container {
+  background: var(--dark-theme-bg-color);
+  padding: 1rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

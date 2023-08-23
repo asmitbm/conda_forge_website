@@ -1,30 +1,107 @@
+import Condaforge1 from "@site/static/img/logo1.svg";
+import Condaforge2 from "@site/static/img/logo2.svg";
+
 # conda-forge Styleguide
 
-A conda-forge brand guide is an all-encompassing document that lays out the principles and norms for consistently displaying and portraying the conda-forge brand. It acts as a crucial source of information for staff, collaborators, and outside firms, guaranteeing that the conda-forge brand is consistently, precisely, and appropriately showcased while staying aligned with the brand's principles and communication.
+A conda-forge brand guide is an all-encompassing document that lays out the principles and norms
+for consistently displaying and portraying the conda-forge brand. It acts as a crucial source of
+information for staff, collaborators, and outside firms, guaranteeing that the conda-forge brand
+is consistently, precisely, and appropriately showcased while staying aligned with the brand's
+principles and communication.
+
+---
 
 ## Logo
 
-![conda-forge](../../static/img/logo.png)
+<div className="col">
+  <div className="col margin-bottom--lg">
+    <div className="col--4">
+      <h3>Primary Logo - Logo with text</h3>
+    </div>
+    <div className="col--4 logo-container">
+      <Condaforge2 width="50%" />
+    </div>
+  </div>
+</div>
 
-<img src="../../static/img/logo.svg" />
+<div className="col">
+  <div className="col margin-bottom--sm">
+    <div className="col--4">
+      <h3>Secondary Logo - Logo without text</h3>
+    </div>
+    <div className="col--4 logo-container">
+      <Condaforge1 width="50%" />
+    </div>
+  </div>
+</div>
+
+---
 
 ## Color Palette
 
+### Gradient
+
 <div className="color-palette-theme-container margin-bottom--lg">
   <div className="row margin-bottom--md">
-    <div className="col col--3">
-      <span className="text--bold">Gradient</span>
-    </div>
     <div className="col">
       <div className="color-container">
-        <div className="color-gradient"></div>
+        <div className="color" style={{ backgroundColor: "#FF3664" }}></div>
+        <div className="color-text">#FF3664</div>
+      </div>
+      <div className="color-container">
         <div className="color-text">
-          linear-gradient(60deg, #FF3664 0%, #FF4B2B 100%)
+          <h1>+</h1>
         </div>
+      </div>
+      <div className="color-container">
+        <div className="color" style={{ backgroundColor: "#FF4B2B" }}></div>
+        <div className="color-text">#FF4B2B</div>
+      </div>
+      <div className="color-container">
+        <div className="color-text">
+          <h1>=</h1>
+        </div>
+      </div>
+      <div className="color-container">
+        <div className="color-gradient"></div>
+        <div className="color-text">(60deg, #FF3664 0%, #FF4B2B 100%)</div>
       </div>
     </div>
   </div>
 </div>
+
+---
+
+### Logo Color
+
+<div className="color-palette-theme-container margin-bottom--lg">
+  <div className="row margin-bottom--md">
+    <div className="col">
+      <div className="color-container">
+        <div
+          className="color"
+          style={{
+            backgroundColor: "#000000",
+            border: "var(--ifm-color-gray-400) solid 1px",
+          }}
+        ></div>
+        <div className="color-text">#000000</div>
+      </div>
+      <div className="color-container">
+        <div
+          className="color"
+          style={{
+            backgroundColor: "#FFFFFF",
+            border: "var(--ifm-color-gray-400) solid 1px",
+          }}
+        ></div>
+        <div className="color-text">#FFFFFF</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+---
 
 ### Light Theme
 
@@ -87,9 +164,11 @@ A conda-forge brand guide is an all-encompassing document that lays out the prin
   </div>
 </div>
 
+---
+
 ### Dark theme
 
-<div className="color-palette-dark-theme-container">
+<div className="color-palette-dark-theme-container margin-bottom--lg">
   <div className="row margin-bottom--md">
     <div className="col col--3">
       <span className="text--bold">Primary color and background color</span>
@@ -147,3 +226,88 @@ A conda-forge brand guide is an all-encompassing document that lays out the prin
     </div>
   </div>
 </div>
+
+---
+
+### Additional colors
+
+<div className="color-palette-theme-container margin-bottom--lg">
+  <div className="row margin-bottom--md">
+    <div className="col col--3">
+      <span className="text--bold">System Colors</span>
+    </div>
+    <div className="col">
+      <div className="color-container">
+        <div className="color" style={{ backgroundColor: "#01C3E3" }}></div>
+        <div className="color-text">#01C3E3</div>
+        <div className="color-text">Information</div>
+      </div>
+      <div className="color-container">
+        <div className="color" style={{ backgroundColor: "#00CD66" }}></div>
+        <div className="color-text">#00CD66</div>
+        <div className="color-text">Success</div>
+      </div>
+      <div className="color-container">
+        <div className="color" style={{ backgroundColor: "#FF8C00" }}></div>
+        <div className="color-text">#FF8C00</div>
+        <div className="color-text">Warning</div>
+      </div>
+      <div className="color-container">
+        <div className="color" style={{ backgroundColor: "#FF4649" }}></div>
+        <div className="color-text">#FF4649</div>
+        <div className="color-text">Danger</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+---
+
+## Typography
+
+Below are various typography elements. The header font for [conda-forge.org](https://conda-forge.org) is
+[Montserrat](https://fonts.google.com/specimen/Montserrat) and the body font is
+[Inter](https://fonts.google.com/specimen/Inter). It looks serious and neat, not too loud.
+It has all the letters for many languages and comes in different styles to always work well.
+
+---
+
+### Headings
+
+<h1>Header one (2rem)</h1>
+
+<h2>Header two (1.5rem)</h2>
+
+<h3>Header three (1.25rem)</h3>
+
+<h4>Header four (1rem)</h4>
+
+<h5>Header five (0.875rem)</h5>
+
+<h6>Header six (0.85rem)</h6>
+
+---
+
+### Paragraphs
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+(size 1rem)
+
+---
+
+### Hyperlinks
+
+<a href="#">Link to somewhere</a>
+
+---
+
+## Figma file
+
+Additional Figma file for colors and components
+
+<iframe
+  width="800"
+  height="450"
+  src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fc7CHCElI13imGMWzTct1ss%2FConda-forge-website-redesign%3Ftype%3Ddesign%26node-id%3D10%253A831%26mode%3Ddesign%26t%3Do71HVpua0grT8shW-1"
+  allowfullscreen
+></iframe>
