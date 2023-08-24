@@ -1,5 +1,7 @@
 import Condaforge1 from "@site/static/img/logo1.svg";
 import Condaforge2 from "@site/static/img/logo2.svg";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
 
 # conda-forge Styleguide
 
@@ -335,6 +337,56 @@ Some **content** with _Markdown_ `syntax`. Caution can be used to point out some
 
 ---
 
+## Code Blocks
+
+### Code Block
+
+```python
+parser = argparse.ArgumentParser(description='Generate the conda-forge html.')
+parser.add_argument('--html-source', help="The location of the conda-forge.github.io checkout.",
+                   default=os.path.abspath(os.path.dirname(os.path.dirname(__file__))))
+
+args = parser.parse_args()
+
+html_source = args.html_source
+loader = FileSystemLoader(html_source)
+env = Environment(loader=loader)
+```
+
+---
+
+### Code block with a title
+
+```python title="/src/conf.py"
+project = u'conda-forge'
+copyright = u'2016-%s, conda-forge' % datetime.datetime.now().strftime("%Y")
+author = u'conda-forge'
+```
+
+---
+
+### Code Block with Tabs
+
+<Tabs groupId="operating-systems">
+  <TabItem value="win" label="Windows">
+    I am Windows.
+  </TabItem>
+  <TabItem value="mac" label="macOS">
+    I am macOS.
+  </TabItem>
+  <TabItem value="linux" label="Linux">
+    I am Linux.
+  </TabItem>
+</Tabs>
+
+---
+
+## Quotes
+
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+---
+
 ## Lists
 
 ### Ordered Lists
@@ -368,6 +420,16 @@ Some **content** with _Markdown_ `syntax`. Caution can be used to point out some
 - List B
   - List a
   - List b
+
+---
+
+## Tables
+
+| Tables |  Item   | Item |
+| ------ | :-----: | ---: |
+| 1      | content |   12 |
+| 2      | content |   12 |
+| 3      | content |   12 |
 
 ---
 
