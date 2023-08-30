@@ -177,8 +177,17 @@ a:focus {
   border-radius: 5px;
 }
 
-.logo-container {
+.logo-container-dark {
   background: var(--dark-theme-bg-color);
+  padding: 1rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-container-light {
+  background: var(--light-theme-bg-color);
   padding: 1rem;
   border-radius: 5px;
   display: flex;

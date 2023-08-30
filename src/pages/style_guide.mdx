@@ -1,15 +1,12 @@
 import Condaforge1 from "@site/static/img/logo1.svg";
 import Condaforge2 from "@site/static/img/logo2.svg";
+import Condaforge3 from "@site/static/img/logo3.svg";
 import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
 
 # conda-forge Styleguide
 
-A conda-forge brand guide is an all-encompassing document that lays out the principles and norms
-for consistently displaying and portraying the conda-forge brand. It acts as a crucial source of
-information for staff, collaborators, and outside firms, guaranteeing that the conda-forge brand
-is consistently, precisely, and appropriately showcased while staying aligned with the brand's
-principles and communication.
+Introducing the conda-forge brand guide: a comprehensive resource that defines the guiding principles and standards for the consistent representation of the conda-forge brand. This document serves as a valuable reference for our team members, collaborators, and external partners, ensuring that the conda-forge brand is uniformly, accurately, and appropriately presented. By adhering to these guidelines, we maintain alignment with the core values of our brand and uphold effective communication.
 
 ---
 
@@ -18,9 +15,20 @@ principles and communication.
 <div className="col">
   <div className="col margin-bottom--lg">
     <div className="col--4">
-      <h3>Primary Logo - Logo with text</h3>
+      <h3>Primary Logo - Logo with text (Light Mode)</h3>
     </div>
-    <div className="col--4 logo-container">
+    <div className="col--4 logo-container-light">
+      <Condaforge3 width="50%" />
+    </div>
+  </div>
+</div>
+
+<div className="col">
+  <div className="col margin-bottom--lg">
+    <div className="col--4">
+      <h3>Primary Logo - Logo with text (Dark Mode)</h3>
+    </div>
+    <div className="col--4 logo-container-dark">
       <Condaforge2 width="50%" />
     </div>
   </div>
@@ -31,7 +39,7 @@ principles and communication.
     <div className="col--4">
       <h3>Secondary Logo - Logo without text</h3>
     </div>
-    <div className="col--4 logo-container">
+    <div className="col--4 logo-container-dark">
       <Condaforge1 width="50%" />
     </div>
   </div>
@@ -401,8 +409,8 @@ author = u'conda-forge'
 
 1. List A
 2. List B
-   a. List a
-   b. List b
+   1. List a
+   2. List b
 
 ---
 
@@ -420,6 +428,33 @@ author = u'conda-forge'
 - List B
   - List a
   - List b
+
+---
+
+## Buttons
+
+### Types
+
+<div>
+  <button class="button button--primary margin-right--lg">Primary</button>
+  <button class="button button--secondary margin-right--lg">Secondary</button>
+</div>
+
+---
+
+### Sizes
+
+<div>
+  <button class="button button--sm button--secondary margin-right--lg">
+    Small Button
+  </button>
+  <button class="button button--secondary margin-right--lg">
+    Default Button
+  </button>
+  <button class="button button--lg button--secondary margin-right--lg">
+    Large Button
+  </button>
+</div>
 
 ---
 
