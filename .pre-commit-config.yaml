@@ -12,6 +12,6 @@ repos:
       rev: v3.0.0-alpha.9-for-vscode
       hooks:
           - id: prettier
-            types_or: [markdown, mdx, json, css, javascript]
+            types_or: [markdown, mdx, css, javascript]
 ci:
     autofix_prs: false
