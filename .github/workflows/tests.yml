@@ -31,7 +31,6 @@ jobs:
     axe_core_test:
         runs-on: ubuntu-latest
         timeout-minutes: 5
-        needs: lint
         steps:
             - uses: actions/checkout@v3
             - uses: actions/setup-node@v3
